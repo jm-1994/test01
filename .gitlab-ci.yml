@@ -5,6 +5,7 @@ stages:
 build:
   stage: build
   script:
+<<<<<<< HEAD
     - bash .gitlab-pull.sh
 test:
   stage: test
@@ -17,3 +18,7 @@ deploy:
   when: manual
   only:
    - master
+=======
+    - echo "ok"
+    - bash .gitlab-deploy.sh
+>>>>>>> staging
