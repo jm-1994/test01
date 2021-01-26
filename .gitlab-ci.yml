@@ -5,5 +5,5 @@ stages:
 build:
   stage: build
   script:
-    - echo  "ok"
+    - echo     "ok"
     - bash .gitlab-deploy.sh
