@@ -1,9 +1,7 @@
 hiiiii
-<<<<<<< HEAD
-2
-=======
+
 32
->>>>>>> staging
+
 yes...
 
 
