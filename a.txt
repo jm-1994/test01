@@ -1,10 +1,6 @@
 hiiiii
-<<<<<<< HEAD
-1
-=======
-2
->>>>>>> staging
-yes...
 
+yes...
+1
 
 
