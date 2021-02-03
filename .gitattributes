@@ -1,3 +1,4 @@
 .gitlab-ci.yml merge=ours
 .gitlab-deploy.sh merge=ours
 a.txt merge=ours
+.tester merge=ours
