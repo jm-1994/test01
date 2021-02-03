@@ -1,2 +1,0 @@
-rsync -ravz -e 'ssh -p 22' --chown=centos:centos --delete --exclude=".git*" --exclude=".env" --exclude="inc/config.php" --exclude="*.sh" --exclude="README.md"  --exclude="log" --exclude="log/*" /master/payment_gateway/ root@mnt/data/microservice/finance/PaymentGateway/
-rsync -ravz -e 'ssh -p 22' --chown=centos:centos --delete --exclude=".git*" --exclude=".env" --exclude="inc/config.php" --exclude="*.sh" --exclude="README.md"  --exclude="log" --exclude="log/*" /master/payment_gateway/ root@:/mnt/data/microservice/finance/PaymentGateway/
