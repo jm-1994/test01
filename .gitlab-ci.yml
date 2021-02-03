@@ -5,15 +5,5 @@ stages:
 build:
   stage: build
   script:
-    - bash .gitlab-pull.sh
-test:
-  stage: test
-  script:
-    - echo "ok"
-deploy:
-  stage: deploy
-  script:
+    - echo     "ok"
     - bash .gitlab-deploy.sh
-  when: manual
-  only:
-   - master
